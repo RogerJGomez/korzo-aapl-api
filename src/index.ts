@@ -13,18 +13,18 @@ interface StockData {
 }
 
 const stockData: StockData[] = [
-  { date: "2024-02-01", price: 174.55 },
-  { date: "2024-01-01", price: 172.78 },
-  { date: "2023-12-01", price: 169.98 },
-  { date: "2023-11-01", price: 167.99 },
-  { date: "2023-10-01", price: 165.32 },
-  { date: "2023-09-01", price: 163.45 },
-  { date: "2023-08-01", price: 160.87 },
-  { date: "2023-07-01", price: 158.62 },
-  { date: "2023-06-01", price: 155.98 },
-  { date: "2023-05-01", price: 152.32 },
-  { date: "2023-04-01", price: 149.87 },
-  { date: "2023-03-01", price: 145.12 },
+  { date: "01-01-2024", price: 174.55 },
+  { date: "02-01-2024", price: 172.78 },
+  { date: "03-01-2024", price: 165.98 },
+  { date: "04-01-2024", price: 157.99 },
+  { date: "05-01-2024", price: 105.32 },
+  { date: "06-01-2024", price: 143.45 },
+  { date: "07-01-2024", price: 160.87 },
+  { date: "08-01-2024", price: 128.62 },
+  { date: "09-01-2024", price: 115.98 },
+  { date: "10-01-2024", price: 152.32 },
+  { date: "11-01-2024", price: 129.87 },
+  { date: "12-01-2024", price: 145.12 },
 ];
 
 app.get("/api/aapl-prices", (req: Request, res: Response) => {
